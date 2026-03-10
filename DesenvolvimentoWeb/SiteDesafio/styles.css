@@ -1,0 +1,12 @@
+body {
+    margin: 25px 50px 75px 100px;
+    background-color: darkgreen;
+    font-family: Verdana;
+}
+#text-color {
+    color: rgb(255, 255, 255);
+}
+section p{
+    background-color: aliceblue;
+    color: black;
+}
