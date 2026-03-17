@@ -1,12 +1,20 @@
-body {
-    margin: 25px 50px 75px 100px;
+*{
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+}
+header{
+    padding-bottom: 30px;
     background-color: darkgreen;
-    font-family: Verdana;
+    text-align: center;
+    & h1{
+        color: white;
+    }
 }
-#text-color {
-    color: rgb(255, 255, 255);
-}
-section p{
-    background-color: aliceblue;
-    color: black;
+.container{
+    position: relative;
+    border: 1px solid blue;
+    & img{
+        width: 100%;
+        opacity: 0.7;
+    }
 }
