@@ -4,6 +4,7 @@
 }
 
 header {
+    padding-top: 20px;
     padding-bottom: 30px;
     background-color: darkgreen;
     text-align: center;
@@ -79,6 +80,34 @@ a:hover{
     margin-top: 10px;
     padding: 5px 10px 5px 10px;
 }
+
+#esporte{
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    & ul{
+        display: inline-block;
+        border: 2px solid lightgray;
+        background-color: whitesmoke;
+        list-style-type: none;
+        padding-right: 30px;
+        & li{
+            float: inline-end;
+            margin: 30px;
+            & button{
+                font-size: 30px;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+button:hover{
+    padding: 10px;
+    background-color: darkgreen;
+    border: 5px solid green;
+    color: white;
+}
+
 footer{
     position: sticky;
     text-align: center;
